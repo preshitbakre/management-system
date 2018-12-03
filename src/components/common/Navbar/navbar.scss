@@ -1,0 +1,21 @@
+// @import "../../../styles/variables";
+
+.navbar{
+  .navbar-brand {
+    img {
+      height: 45px;
+    }
+  }
+  ul{
+    .nav-item{
+      padding-left: 25px;
+      padding-right: 25px;
+      .nav-link{
+        color: #000;
+        &:hover {
+          color: #000000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "ManagementSystem",
+  "version": "1.0.0",
+  "description": "Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Preshit Bakre",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "formik": "^0.11.11",
+    "jsx-control-statements": "^3.2.8",
+    "popper.js": "^1.14.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "yup": "^0.24.1"
+  },
+  "devDependencies": {
+    "babel-plugin-jsx-control-statements": "^3.2.8",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.11",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1"
+  }
+}
